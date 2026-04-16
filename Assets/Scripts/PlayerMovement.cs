@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private bool isGrounded;
     private int jumpsLeft;
+    public AudioClip jumpSound;
 
     void Start()
     {
@@ -54,6 +55,8 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             jumpsLeft--;
+
+            AudioSource.PlayClipAtPoint(jumpSound, transform.position);
         }
     }
 
