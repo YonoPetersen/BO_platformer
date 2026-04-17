@@ -4,3 +4,10 @@
 
 # Gameplay:
 ![Gameplay](gifs/boplatformer.gif)
+
+# Versie 2:
+## Custom mechanics:
+### 1. Wall jump
+### 2. Enemy Parry voor height
+### 3. Custom self made music
+![Gameplay](gifs/boplatformer2.gif)
